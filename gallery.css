@@ -1,0 +1,168 @@
+body
+{
+  background-color:white;
+  /*margin:auto;*/
+  /*width:1200px;*/
+  /*padding:0;*/
+  background-color:#F1F1F1;
+  
+   width:100%;
+  
+  
+}
+header {
+margin:0;
+padding:0;
+ width:100%;
+background-color:#533C2C; 
+/*-background-image:url('https://s3-us-east-2.amazonaws.com/designevo/projects/uid-679327/f9939897dea15fabae82dccd0229c8f9/preview.png?t=1560172011819')*/
+background-repeat:norepeat;
+}
+.container{
+  padding:0;
+  margin-top:-20px;
+  /*width:1200px;*/
+}
+#logo{
+ padding-left:700px;
+ 
+}
+
+nav {
+height: 100px; 
+width:100%;
+}
+
+ul {
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+overflow: hidden; 
+/*background-color: #533C2C; */
+text-align:center;
+}
+
+li {
+float: left; 
+}
+
+#menu {
+float: right; 
+padding-right: 30px; 
+}
+
+#home {
+padding-left:560px; 
+}
+
+li a {
+display: block; 
+color: white; 
+text-align: center; 
+padding: 14px 16px; 
+text-decoration: none; 
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: rgb(212,156,79);
+
+}
+footer{
+  text-align :center;
+  padding-top:20px;
+  background-color:#A67A53;
+color:black;
+  text-transform: capitalize;
+   height:300px;
+   font-size:18px;
+   font-family: Helvetica, Arial, sans-serif;
+  letter-spacing:1px;
+  word-spacing:1px;
+  width:100%;
+ }
+ form{
+   float:left;
+margin-left:10px;
+
+ }
+#sub{
+   
+  background-color: rgb(212,156,79);
+  margin-top:20px;
+  color: black;
+  font-size: 16px;
+  padding: 16px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius:5px;
+  text-align:center;
+  text-transform:capitalize;
+   
+ }
+ input[type=text] {
+  width:35%;
+  padding:16px 25px;
+  background-color: rgb(212,156,79);
+  border:none;
+}
+ #sub:hover{
+   background-color:white;
+ }
+ 
+.logo{
+ border-top:1px solid black; 
+margin-top:-100px;
+margin-right:50px;
+margin-left:1200px;
+  
+}
+.contact{
+width:400px;
+  margin-left:700px;
+  border-bottom:1px solid black;
+
+  
+}
+.adress{
+  float:right;
+  width:300px;
+  margin-top:-140px;
+  margin-right:150px;
+   color:black;
+  font-size:18px;
+  
+   
+}
+#copy{
+margin-top:60px;
+background-color:#A67A53;
+margin-left:200px;
+}
+h3{
+  
+  color:black;
+  font-size:20px;
+  text-align:center;
+}
+
+ table{
+   width:100%;
+ }
+ table img:hover{
+  width:600px; 
+  height:600px;
+ }
+ td{
+  
+   padding: 1.2em;
+
+ }
+ .fixed{
+   padding-left:100px;
+ }
+ td p{
+   color:black;
+   font-size:24px;
+   text-align:center;
+ }

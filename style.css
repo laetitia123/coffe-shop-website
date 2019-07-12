@@ -1,0 +1,284 @@
+
+html,body
+{
+  background-color:white;
+  margin: 0px;
+   padding: 0px;
+  
+  
+}
+header {
+margin:0;
+padding:0;
+
+  /*width:1200px;;*/
+background-color:#533C2C; 
+/*-background-image:url('https://s3-us-east-2.amazonaws.com/designevo/projects/uid-679327/f9939897dea15fabae82dccd0229c8f9/preview.png?t=1560172011819')*/
+background-repeat:norepeat;
+}
+
+.container{
+  padding:0;
+  margin-top:-20px;
+  /*width:1200px;*/
+}
+#logo{
+ margin-left:680px;
+}
+
+nav {
+height:80px; 
+}
+
+nav>ul {
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+overflow: hidden; 
+background-color: #533C2C; 
+text-align:center;
+}
+
+li {
+float: left; 
+}
+
+#menu {
+float: right; 
+padding-right: 30px; 
+}
+
+#home {
+padding-left: 500px; 
+}
+
+li a {
+display: block; 
+color: white; 
+text-align: center; 
+padding: 14px 16px; 
+text-decoration: none; 
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover { 
+background-color: rgb(212,156,79);
+
+}
+/*#image{
+  background-image:url('https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+  background-repeat: no repeat;
+  height:500px;
+  width:1200px;
+  
+ 
+}
+*/
+#welcome{
+  color:GhostWhite ;
+  font-family: Brandon Text,sans-serif;
+  text-align:center;
+ padding-top:300px;
+ font-size:24px;
+}
+#button{
+ 
+  font-family: Brandon Text,sans-serif;
+  margin-left:720px;
+  width:150px;
+  height:50px;
+  margin-top:30px;
+  background-color:#533C2C;
+  border:none;
+  font-size:32px;
+  border-radius:50px
+}
+.button:hover{
+  background-color:#533C2C;
+  
+}
+a,#button{
+   text-decoration:none;
+  color:white;
+ text-align:center;
+}
+
+wrapper {
+  overflow: hidden;
+}
+
+#sliding-background {
+ 
+  background: url("https://usercontent1.hubstatic.com/12313562_f520.jpg")  ;
+  
+   background-repeat: no-repeat;
+   height:800px;
+  background-size:cover;
+ 
+}
+#sliding-background h2{
+  color: #533C2C;
+ margin-top:20px;
+  font-family: Brandon Text,sans-serif;
+  margin-left:700px;
+  font-size:32px;
+}
+#about{
+  height:200px;
+}
+.plate{
+  height:1400px;
+}
+ #plate1{
+
+   background-image:url('https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/recipes/ck/06/03/meat-loaf-ck-1160600-x.jpg?itok=QzSqwwDY');
+   height:450px;
+   width:600px;
+   background-size:cover;
+   
+ }
+ #plate2{
+
+   background-image:url('https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+   height:400px;
+   width:600px;
+    margin-top:20px;
+    background-size:cover;
+ }
+ #plate3{
+
+   background-image:url('https://images.pexels.com/photos/396132/pexels-photo-396132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+   background-size:cover;
+   height:470px;
+   width:600px;
+    margin-top:20px;
+ }
+ #plate1, #plate2 , #plate3{
+   margin-left:600px;
+  
+  
+ }
+ #ours{
+   margin-left:200px;
+   color:white;
+   font-size:28px;
+ }
+ .ourfood h2{
+   color: #533C2C;
+   margin-left:720px;
+   font-size:34px;
+    
+   text-transform:inherit;
+ }
+
+ 
+table,th,td,tr{
+  padding: 5px;
+  border-collapse: collapse;
+  border: 2px solid white;
+  color:#533C2C;
+}
+td{
+  padding-left:100px;
+  color:#533C2C;;
+}
+#about  {
+  margin-left:-100px;
+  color:black;
+  text-transform:inherit;
+  font-size:22px;
+  word-spacing:0,5em;
+  line-height: 38px;
+}
+#me{
+  color:#533C2C;
+  /*margin-left:100px;*/
+  font-size:34px;
+  text-transform:inherit;
+}
+
+a{
+   text-decoration:none; 
+}
+footer{
+  text-align :center;
+  padding-top:20px;
+  background-color:#A67A53;
+color:black;
+  text-transform: capitalize;
+   height:300px;
+   font-size:18px;
+   font-family: Helvetica, Arial, sans-serif;
+  letter-spacing:1px;
+  word-spacing:1px;
+  width:100%;
+ 
+}
+table ,h1{
+  text-align:center;
+}
+ form{
+   float:left;
+margin-left:10px;
+
+ }
+#sub{
+   
+  background-color: rgb(212,156,79);
+  margin-top:20px;
+  color: black;
+  font-size: 16px;
+  padding: 16px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius:5px;
+  text-align:center;
+  text-transform:capitalize;
+   
+ }
+ input[type=text] {
+  width:35%;
+  padding:16px 25px;
+  background-color: rgb(212,156,79);
+  border:none;
+}
+ #sub:hover{
+   background-color:white;
+ }
+ 
+.logo{
+ border-top:1px solid black; 
+margin-top:-100px;
+margin-right:50px;
+margin-left:1200px;
+  
+}
+.contact{
+  color:#533C2C;;
+width:400px;
+  margin-left:700px;
+  border-bottom:1px solid black;
+
+  
+}
+.adress{
+  float:right;
+  width:300px;
+  margin-top:-140px;
+  margin-right:150px;
+   color:black;
+  font-size:18px;
+  
+   
+}
+#copy{
+margin-top:60px;
+background-color:#A67A53;
+margin-left:200px;
+}
+h3{
+  
+  color:black;
+  font-size:20px;
+  text-align:center;
+}

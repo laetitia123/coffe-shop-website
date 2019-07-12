@@ -1,0 +1,197 @@
+body{
+   margin:auto;
+  /*width:1200px;*/
+  padding:0;
+ background-image:url('https://media-cdn.tripadvisor.com/media/photo-s/0e/aa/36/7f/breakfast-quiche-salad.jpg');
+ background-size:cover;
+  background-attachment: fixed;
+/*https://media-cdn.tripadvisor.com/media/photo-s/0e/aa/36/7f/breakfast-quiche-salad.jpg*/
+/*https://images.pexels.com/photos/1415555/pexels-photo-1415555.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500*/
+ 
+}
+header {
+margin:0;
+padding:0;
+  /*width:1200px;*/
+background-color:black;
+ /*position: fixed;*/
+/*-background-image:url('https://s3-us-east-2.amazonaws.com/designevo/projects/uid-679327/f9939897dea15fabae82dccd0229c8f9/preview.png?t=1560172011819')*/
+background-repeat:no-repeat;
+ background-attachment: fixed;
+}
+.container{
+  padding:0;
+  margin-top:-20px;
+  /*width:1200px;*/
+  /*width:1200px;*/
+}
+#logo{
+ margin-left:400px;
+}
+
+nav {
+height: 100px; 
+
+}
+
+ul {
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+overflow: hidden; 
+/*background-color: #533C2C; */
+text-align:center;
+}
+
+li {
+float: left; 
+}
+
+#menu {
+float: right; 
+padding-right: 30px; 
+}
+
+#home {
+padding-left: 350px; 
+}
+
+li a {
+display: block; 
+color: white; 
+text-align: center; 
+padding: 14px 16px; 
+text-decoration: none; 
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: rgb(212,156,79);
+
+}
+table,th,td,tr{
+  padding: 5px;
+  border-collapse: collapse;
+   font-size:14px;
+  line-height: 1.6;
+   font-family:monospace;
+   color:white;
+  /*color:black;*/
+  margin-left:300px;
+}
+th{
+  font-size:24px;
+}
+td{
+  padding-left:100px;
+   border-bottom: 2px solid #C09665;
+   font-size:14px;
+  line-height: 1.6;;
+   font-family:monospace;
+   color:white;
+}
+table,h1{
+  text-align:center;
+  color:#533C2C;
+}
+th{
+ font-size:24px;
+  line-height: 1.6;;
+   font-family:monospace; 
+   color:white;
+   text-align:center;
+}
+
+#breakfast{
+  margin-top:100px;
+  background-color:black;
+  opacity: 0.7;
+}
+table{
+  background-color:black;
+  opacity: 0.7;
+}
+/*#lunch{*/
+/*   background-color: black;*/
+/*  opacity: 0.7;*/
+/*}*/
+/*#BreakfastSandwiches{*/
+/*  background-color: black;*/
+/*  opacity: 0.7; */
+/*}*/
+/*#SaladsSoups{*/
+/* background-color: black;*/
+/*  opacity: 0.7; */
+/*}*/
+footer{
+  text-align :center;
+  padding-top:50px;
+  background-color:#A67A53;
+  color:black;
+  text-transform: capitalize;
+   height:300px;
+   font-size:18px;
+   font-family: Helvetica, Arial, sans-serif;
+  letter-spacing:1px;
+  word-spacing:1px;
+  width:100%;
+  margin-top:100px;
+ }
+ form{
+   float:left;
+margin-left:10px;
+
+ }
+#sub{
+   
+  background-color: rgb(212,156,79);
+  margin-top:20px;
+  color: black;
+  font-size: 16px;
+  padding: 16px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius:5px;
+  text-align:center;
+  text-transform:capitalize;
+   
+ }
+ input[type=text] {
+  width:35%;
+  padding:16px 25px;
+  background-color: rgb(212,156,79);
+  border:none;
+}
+ #sub:hover{
+   background-color:white;
+ }
+ 
+.logo{
+ border-top:1px solid black; 
+margin-top:-100px;
+margin-right:50px;
+margin-left:1200px;
+  
+}
+.contact{
+width:400px;
+  margin-left:700px;
+  border-bottom:1px solid black;
+
+  
+}
+.adress{
+  float:right;
+  width:300px;
+  margin-top:-140px;
+  margin-right:150px;
+   color:black;
+  font-size:18px;
+  text-decoration:none;
+   
+}
+#copy{
+margin-top:60px;
+background-color:#A67A53;
+margin-left:200px;
+}
